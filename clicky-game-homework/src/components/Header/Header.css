@@ -1,0 +1,13 @@
+.Jumbotron {
+    padding-top: 20px; 
+    height: 175px; 
+}
+
+.jumbotronHeaderText {
+    font-size: 70px; 
+}
+
+.jumbotronSmallText {
+    padding-top: 10px; 
+    font-size: 20px; 
+}

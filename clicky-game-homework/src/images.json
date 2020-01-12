@@ -1,99 +1,98 @@
-// All images that will appear within the memory game
 [
     {
         "id": 1,
-        "name": "Coca-Cola",
+        "name": "Baby Dory",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0017/9579/brand.gif?itok=0GMEdPZR"
+        "image": "https://s.yimg.com/uu/api/res/1.2/tJHt4YH1SvZl78RBBl0rgg--~B/aD0zMjg7dz01MjQ7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en-US/homerun/hello_giggles_454/20ad06f164622cec4a96087daf6e038e"
     },
     {
         "id": 2,
-        "name": "Texaco",
+        "name": "Ariel",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0004/5837/brand.gif?itok=mmVEK8Pn"
+        "image": "https://i.pinimg.com/originals/12/a5/52/12a552a921afa2d258c681ab7f3753ca.png"
     },
     {
         "id": 3,
-        "name": "Starbucks",
+        "name": "Mike Wazowski",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/032013/starbucks_2011_true_logo_0.png?itok=1avUKqJg"
+        "image": "https://cdn.wallpapersafari.com/43/39/xa4wjH.png"
     },
     {
         "id": 4,
-        "name": "GE",
+        "name": "Bambi",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/112015/untitled-1_220.png?itok=KgNk9SlS"
+        "image": "http://images6.fanpop.com/image/photos/39700000/Bambi-walt-disney-characters-39728327-1152-864.jpg"
     },
     {
         "id": 5,
-        "name": "Wilson",
+        "name": "Alice",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0007/1719/brand.gif?itok=BX3hEsUN"
+        "image": "https://s7d9.scene7.com/is/image/DisneyStoreES/Character_Assets_Atmb-sq_character-alice_launch?$sq-c$"
     },
     {
         "id": 6,
-        "name": "Volkswagen",
+        "name": "Russell",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0025/4205/brand.gif?itok=kvDnZka_"
+        "image": "http://animateddisneyasiancharacters.weebly.com/uploads/2/8/6/1/28614415/2232269.jpg"
     },
     {
         "id": 7,
-        "name": "Beats",
+        "name": "Frozen",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/032012/beats_logo.jpg?itok=n0QUXCP8"
+        "image": "https://imgix.bustle.com/rehost/2016/9/13/11e1ff3a-1dfc-4ba5-b59c-17b39efc1542.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70"
     },
     {
         "id": 8,
-        "name": "Apple",
+        "name": "Steve",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0015/7847/brand.gif?itok=LsN3DWaP"
+        "image": "https://cdn.onebauer.media/one/empire-images/features/560ec10750e6c513721c38f5/Steve%20still.jpg?quality=50&width=1000&ratio=1-1&resizeStyle=aspectfit&format=jpg"
     },
     {
         "id": 9,
-        "name": "Pinterest",
+        "name": "Tiana",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/062012/pinterest_favicon-01.png?itok=q2_kRck8"
+        "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-2ubk2s_2034b8c2.jpeg?region=0%2C0%2C600%2C600"
     },
     {
         "id": 10,
-        "name": "NBC",
+        "name": "Princess Jasmine",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/082011/nbc.ai_.png?itok=LHcc4wxh"
+        "image": "https://imgs.heart.co.uk/images/75466?crop=16_9&width=660&relax=1&signature=TvABuz2IOEo5a2P12ZZburyZ3Q0="
     },
     {
         "id": 11,
-        "name": "Twitter",
+        "name": "Baby Moana",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/072015/twitterlogo_55acee_1.png?itok=ftqKh6Sf"
+        "image": "https://i.ytimg.com/vi/Mrh51SwS050/maxresdefault.jpg"
     },
     {
         "id": 12,
-        "name": "WWF",
+        "name": "Lilo & Stitch",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0004/0698/brand.gif?itok=AOXU7GgP"
+        "image": "https://www.snopes.com/tachyon/2019/04/lilo-and-stitch-movie.jpg?resize=865,452"
     },
     {
         "id": 13,
-        "name": "Intel",
+        "name": "Mulan",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/122015/untitled-1_116.png?itok=iZDte5dF"
+        "image": "https://vignette.wikia.nocookie.net/disney/images/0/04/Profile_-_Mulan.jpeg/revision/latest?cb=20190312015124"
     },
     {
         "id": 14,
-        "name": "Sony",
+        "name": "Lion King",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/062015/sony.png?itok=Y-UxCzO-"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE2-NiOFyYr97_EmYn5u0uR37qELOHUiDYB-Xijf0Rwh9vJQkrng&s"
     },
     {
         "id": 15,
-        "name": "Ebay",
+        "name": "Cinderella",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/102015/ebay_logo.png?itok=Aa4oyEhj"
+        "image": "https://cdn3.movieweb.com/i/article/kHZQDJ6pNXbSK2UPyWQyXQeHWntxIm/1200:100/Cinderella-Blu-Ray-Release-Date-Walt-Disney-Signature.jpg"
     },
     {
         "id": 16,
-        "name": "WhatsApp",
+        "name": "Tangled",
         "clicked": false,
-        "image": "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/032015/whatsapp.jpg?itok=dTlsxLl4"
+        "image": "https://thebabsway.files.wordpress.com/2015/08/tangled__june__29__2012_by_practicallyuseless-d55hp9x.jpg"
     }
 ]

@@ -49,14 +49,14 @@ class GameContainer extends Component {
     render() {
         return (
             <div className="container-fuild mainCardCon">
-                <div className="gameMessage text-center">
+                <div className="message text-center">
                     <p>{this.state.message}</p>
                 </div>
-                <div className="gameScores text-center">
+                <div className="scores text-center">
                     <p>Score: {this.state.score} | Top Score: {this.state.topScore}</p>
                     </div> 
                     
-                    <div className="container">
+                    <div className="container memoryCardsContainer">
                         <div className="row">
                             {this.state.images.map(image => (
                                 <MemoryCards 

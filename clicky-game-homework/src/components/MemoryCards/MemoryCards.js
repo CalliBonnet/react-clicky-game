@@ -1,7 +1,7 @@
 import React from 'react'; 
 import "./MemoryCards.css"; 
 
-const MemoryCards = (props) => {
+const MemoryCards = (props) => (
     <div 
         className="allCards"
         key={props.id}
@@ -13,6 +13,6 @@ const MemoryCards = (props) => {
             alt={props.name}
         />
     </div>
-}; 
+); 
 
 export default MemoryCards; 
