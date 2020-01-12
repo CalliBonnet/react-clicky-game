@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; 
 import MemoryCards from '../MemoryCards/MemoryCards'; 
+import images from '../../images.json'; 
 import "./GameContanier.css"; 
 
 class GameContainer extends Component {
@@ -16,13 +17,15 @@ class GameContainer extends Component {
 
         if (clicked) {
             orderOfImages.forEach((image, index) => {
-                orderOfImages[Index].clicked = false; 
+                orderOfImages[index].clicked = false; 
             });
+
             return this.setState({
                 image: orderOfImages.sort(() => Math.random() - 0.5), 
                 message: "You Already Clicked this One", 
                 score: 0 
             })
+
         } else {
             orderOfImages.forEach((image, index) => {
                 if (id === image.id) {
@@ -38,7 +41,7 @@ class GameContainer extends Component {
                 image: orderOfImages.sort(() => Math.random() -0.5), 
                 message: "Congrats!", 
                 score: newScore, 
-                topScore: newTopScore
+                topScore: newTopScore,
             })
         }
     }; 
@@ -52,16 +55,17 @@ class GameContainer extends Component {
                 <div className="gameScores text-center">
                     <p>Score: {this.state.score} | Top Score: {this.state.topScore}</p>
                     </div> 
+                    
                     <div className="container">
                         <div className="row">
                             {this.state.images.map(image => (
                                 <MemoryCards 
-                                key={image.id}
-                                id={image.id}
-                                name={image.name}
-                                clicked={image.clicked}
-                                image={image.image}
-                                handleClick={this.handleClick}
+                                    key={image.id}
+                                    id={image.id}
+                                    name={image.name}
+                                    clicked={image.clicked}
+                                    image={image.image}
+                                    handleClick={this.handleClick}
                                 />
 
                             ))}
@@ -70,6 +74,6 @@ class GameContainer extends Component {
             </div>
         ); 
     }; 
-}
+}; 
 
 export default GameContainer; 
